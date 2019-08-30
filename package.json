@@ -1,0 +1,26 @@
+{
+  "name": "zbar",
+  "description": "ZBAR: Qrcode reader for rt-thread",
+  "description_zh": "ZBAR: 二维码识别在RTT的移植",  
+  "keywords": [
+    "zbar"
+  ],
+  "category": "multimedia",
+  "author": {
+    "name": "zpw",
+    "email": "aeo1234@qq.com"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/aeo123/rt_zbar.git",
+  "icon": "unknown",
+  "homepage": "https://github.com/aeo123",
+  "doc": "https://github.com/aeo123/rt_zbar.git",
+  "site": [
+    {
+      "version": "latest",
+      "URL": "https://github.com/aeo123/rt_zbar.git",
+      "filename": "Null for git package",
+      "VER_SHA": "master"
+    }
+  ]
+}
