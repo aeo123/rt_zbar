@@ -8,7 +8,7 @@ if PKG_USING_ZBAR
 
     config PKG_ZBAR_PATH
         string
-        default "/packages/multimedia/zbar"
+        default "/packages/multimedia/rt_zbar"
 
     choice
         prompt "Version"

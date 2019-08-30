@@ -1,5 +1,5 @@
 {
-  "name": "zbar",
+  "name": "rt_zbar",
   "description": "ZBAR: Qrcode reader for rt-thread",
   "description_zh": "ZBAR: 二维码识别在RTT的移植",  
   "keywords": [
