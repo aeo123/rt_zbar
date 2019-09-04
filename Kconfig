@@ -10,6 +10,10 @@ if PKG_USING_ZBAR
         string
         default "/packages/multimedia/rt_zbar"
 
+    config BSP_USING_SRC_INSTEAD_LIB
+        bool "Using zbar src instead of lib"
+        default n
+
     choice
         prompt "Version"
         default PKG_USING_ZBAR_LATEST_VERSION
