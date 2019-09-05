@@ -606,7 +606,9 @@ int zbar_scan_image (zbar_image_scanner_t *iscn,
     iscn->time = (abstime.tv_sec * 1000) + ((abstime.tv_nsec / 500000) + 1) / 2;
 #else
     struct timeval abstime;
-    gettimeofday(&abstime, NULL);
+		abstime.tv_sec = 0;
+		abstime.tv_usec = 0;
+    //gettimeofday(&abstime, NULL);
     iscn->time = (abstime.tv_sec * 1000) + ((abstime.tv_usec / 500) + 1) / 2;
 #endif
 
